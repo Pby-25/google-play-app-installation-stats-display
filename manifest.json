@@ -9,10 +9,11 @@
     "128": "icon128.png" },
   "page_action": {
     "default_icon" : "icon16.png",
-    "default_title": "Google Mail"
+    "default_title": "gpAID"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "permissions" : [
     "declarativeContent",
