@@ -20,5 +20,7 @@ chrome.runtime.onInstalled.addListener(function() {
 // Called when the user clicks on the page action.
 chrome.pageAction.onClicked.addListener(function(tab) {
     console.log('Fetching app installation statistics on' + tab.url + '!');
+    chrome.tabs.executeScript({
+        file: 'logic-script.js'
+    });
 })
-

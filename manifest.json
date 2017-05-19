@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Google Play App Installs Display",
   "version": "0.1",
-  "description": "A simple extension which replaces listed apps' rating information by their number of installs",
+  "description": "A simple extension which replaces listed apps' rating information with the number of installs",
   "icons":
   { "16": "icon16.png",
     "48": "icon48.png",
@@ -17,6 +17,7 @@
   },
   "permissions" : [
     "declarativeContent",
+    "activeTab",
     "https://play.google.com/*"
   ]
 }
