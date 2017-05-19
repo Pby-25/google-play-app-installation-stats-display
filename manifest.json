@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
-  "name": "Google Play App Installs Display",
+  "name": "Google Play App Installation Stats Display",
   "version": "0.1",
-  "description": "A simple extension which replaces listed apps' rating information with the number of installs",
+  "description": "A simple extension which replaces listed apps' rating information with their number of installations",
   "icons":
   { "16": "icon16.png",
     "48": "icon48.png",
     "128": "icon128.png" },
   "page_action": {
     "default_icon" : "icon16.png",
-    "default_title": "gpAID"
+    "default_title": "GPAISD"
   },
   "background": {
     "scripts": ["background.js"],

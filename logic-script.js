@@ -1,6 +1,5 @@
 var elements = document.querySelectorAll('.stars-container');
 for (var i = 0; i < elements.length; i++) {
-    // console.log(i);
     var appUrl = elements[i].querySelector("a").href;
     retrieveInstallNum(appUrl, elements[i]);
 }
@@ -13,7 +12,6 @@ function retrieveInstallNum(url, element){
         if (request.readyState == 4 && request.status == 200) {
             console.log(666);
             callback(request.responseText, element);
-            // return request.response.querySelector('[itemprop="numDownloads"]').textContent;
         }
     };
 }
